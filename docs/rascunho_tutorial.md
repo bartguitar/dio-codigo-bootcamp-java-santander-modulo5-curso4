@@ -67,3 +67,15 @@ tasks.named('test') {
 4.1 - Começar as regras de negócio - criar classe "AnalyzeCompanyRiskUseCase" \
 4.2 - Alterar classe "CompanyEvent....." injetando classe "AnalyzeCompany....." \
 --Feito Commit--
+4.3 - Agora serão criadas as classes para interagir com "Spring OpenFeign" \
+4.4 - Usar o mock para criar apis externas mocadas para interagir com a aplicação - https://mockoon.com/ ou postman/insomnia \
+4.5 - Especificar variável "ext" no "build.gradle" chamada 'springCloudVersion' \
+4.6 - Adicionar a dependência "spring-openfeign" no "build.gradle" \
+4.7 - Adicionar "dependencyManagement" no "build.gradle" \
+4.8 - Adicionar anotação "@EnableFeignClients" na classe de aplicação \
+4.9 - Criar pacote "rest" dentro de infra e dentro dele criar o pacote "client" \
+4.10 - Criar interface "SanctionClient" \
+4.11 - Terminar de implementar classe "AnalyzeCompany...." \
+4.12 - Testar se a aplicação subiu e testar no mock ou postman a api \
+4.13 - Agora testar toda a aplicação, criando a empresa e depois com a api mockada externa \
+--Feito Commit--
