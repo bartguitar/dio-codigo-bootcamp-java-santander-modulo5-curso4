@@ -51,3 +51,15 @@ tasks.named('test') {
 - 2.8 - Criar classe record "ComplianceScreening" \
 - 2.9 - Criar classe "CompliancePolicy" \
 --Feito Commit--
+- ### Seção 3 - Modelando empresas com Spring Data
+3.1 - Criar pacotes "persistence" / "entity" / "repository" dentro de "infra...." \
+3.2 - Criar entidade classe "CompanyEntity" \
+3.3 - Criar classe interface "CompanyEntityRepository" \
+3.4 - Testar aplicação em http://localhost:8080/ \
+3.5 - Testar também http://localhost:8080/companies \
+3.6 - Testar POST criar uma company \
+3.7 - Criar classe "InMemoryCompanyRepository" \
+3.8 - Alterar interface "CompanyRepository" alterar para "void" método "save" \
+3.9 - Criar pacote "evento" classe "CompanyEventHandler" \
+3.10 - Testar aplicação (Testar POST criar uma company) \
+--Feito Commit--
