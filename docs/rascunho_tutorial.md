@@ -78,4 +78,5 @@ tasks.named('test') {
 4.11 - Terminar de implementar classe "AnalyzeCompany...." \
 4.12 - Testar se a aplicação subiu e testar no mock ou postman a api \
 4.13 - Agora testar toda a aplicação, criando a empresa e depois com a api mockada externa \
+4.14 - No código onde está "url = "http://192.168.64.1:3001" deverá ser substituido pelo endereço da api minha criada
 --Feito Commit--
