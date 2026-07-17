@@ -88,3 +88,13 @@ tasks.named('test') {
 5.5 - Adicionar propriedades do openfeign no "application.properties" - "sanction-client-default \
 5.6 - Testar aplicação \
 --Feito Commit--
+### Seção 6 - Configurando Cenários de Exceção
+6.1 - Adicionar config no properties "infrastructure.rest=DEBUG" \
+6.2 - Testar api \
+6.3 - Criação de "Fallbacks" alterando a classe "SanctionClient" adicionando parametro "fallback" e criação da classe "Fallback" \
+6.4 - Adicionar config properties "circuitbreaker" \
+6.5 - Adicionar dependência no build "circuitbreaker-resilience4j" \
+6.6 - Testar aplicação com requisições \
+6.7 - Alterar classe "Analyze....." método "execute" \
+6.8 - Testar aplicação com requisições \
+--Feito Commit--
