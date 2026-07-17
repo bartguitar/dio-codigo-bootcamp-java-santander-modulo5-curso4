@@ -1,7 +1,7 @@
 package br.com.dio.dioprojetomodulo5curso4springcloudopenfeign.application;
 
 import br.com.dio.dioprojetomodulo5curso4springcloudopenfeign.domain.Company;
-import br.com.dio.dioprojetomodulo5curso4springcloudopenfeign.infrastructure.rest.rest.SanctionClient;
+import br.com.dio.dioprojetomodulo5curso4springcloudopenfeign.infrastructure.rest.client.SanctionClient;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -78,5 +78,13 @@ tasks.named('test') {
 4.11 - Terminar de implementar classe "AnalyzeCompany...." \
 4.12 - Testar se a aplicação subiu e testar no mock ou postman a api \
 4.13 - Agora testar toda a aplicação, criando a empresa e depois com a api mockada externa \
-4.14 - No código onde está "url = "http://192.168.64.1:3001" deverá ser substituido pelo endereço da api minha criada
+4.14 - No código onde está "url = "http://192.168.64.1:3001" deverá ser substituido pelo endereço da api minha criada \
+--Feito Commit--
+### Seção 5 - Monitorando Requisições e Respostas
+5.1 - Adicionar propriedades do openfeign no "application.properties" - "sanction-client-logger" / "sanction-client-url" \
+5.2 - Alterar classe "SanctionClient" retirando a url e colocando em properties \
+5.3 - Criar pacote "dto" e classe record "SanctionResult" \
+5.4 - Testar aplicação na api, simular autorização no software de api escolhido \
+5.5 - Adicionar propriedades do openfeign no "application.properties" - "sanction-client-default \
+5.6 - Testar aplicação \
 --Feito Commit--
