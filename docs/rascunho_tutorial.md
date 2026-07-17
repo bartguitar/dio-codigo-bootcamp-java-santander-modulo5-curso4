@@ -98,3 +98,17 @@ tasks.named('test') {
 6.7 - Alterar classe "Analyze....." método "execute" \
 6.8 - Testar aplicação com requisições \
 --Feito Commit--
+### Seção 7 - Consumindo dados complexos
+7.1 - Testar api com novas configurações \
+7.2 - Criar classe interface "AntiMoneyLaunderingClient" \
+7.3 - Criar classe record "AmlResult" e "Pep" \
+7.4 - Injetar em "AnalyzeCompanyRiskUseCase" "Antimoney...." \
+7.5 - Adicionar ao metodo "execute" em "AnalyzeCompanyRiskUseCase" a variavel "amlProfile" \
+7.6 - Adicionar em properties 3 configurações de novo client "aml-client" \
+7.7 - Testar aplicação com requisições e verificar logs \
+7.8 - Adicionar "ComplianceScreening" ao método execute \
+7.9 - Alterar método execute \
+7.10 - Criar método "applyRiskAssessment" em "Company" \
+7.11 - Injetar em "Analyze" variável "CompanyRepository" e outras adições de código \
+7.12 - Testar e subir aplicação POST E GET \
+--Feito Commit--
